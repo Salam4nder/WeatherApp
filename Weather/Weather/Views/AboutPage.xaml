@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             
+             x:Class="Weather.Views.AboutPage"
+             Title="About Weather">
+
+    <StackLayout>
+        <Frame BackgroundColor="DarkRed" Padding="50" CornerRadius="0">
+            <Label Text="Project Part B" HorizontalTextAlignment="Center" TextColor="Ivory" FontSize="36"/>
+        </Frame>
+        <Label Text="Weather in Xamarin.Forms" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="This part of the project is about making a simple UI in to the console weather service made in project part A using Flyout." 
+               FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="Select a city and give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Created by Kamran Gasimov"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Image Source="http://medialibrary.climatecentral.org/uploads/general/extremewxtoolkits_severewx.jpg"></Image>
+    </StackLayout>
+
+</ContentPage>
